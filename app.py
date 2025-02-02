@@ -9,8 +9,10 @@ def create_app():
         return 'GeeksForGeeks-Devops30-aayush ? HOW ARE YOU now bro'
     def a():
         print('test)
+        a()
     def a():
         print('test')
+        a()
     a()
 
     return app
