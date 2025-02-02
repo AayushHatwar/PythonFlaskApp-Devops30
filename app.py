@@ -7,6 +7,11 @@ def create_app():
     @app.route('/')
     def home():
         return 'GeeksForGeeks-Devops30-aayush ? HOW ARE YOU now bro'
+    def a():
+        print('test)
+    def a():
+        print('test')
+    a()
 
     return app
 
