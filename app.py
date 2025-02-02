@@ -3,19 +3,22 @@ from flask import Flask
 
 def create_app():
     app = Flask(__name__)
+    x=10
+    y-20
 
     @app.route('/')
     def home():
         return 'GeeksForGeeks-Devops30-aayush ? HOW ARE YOU now bro'
-    def a():
+    
+
+    return app
+def a():
         print('test)
         a()
     def a():
         print('test')
         a()
     a()
-
-    return app
 
 
 if __name__ == '__main__':
